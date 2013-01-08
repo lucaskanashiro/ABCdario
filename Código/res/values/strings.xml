@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">ABCedario</string>
+    <string name="nome_aplicativo">ABCedario</string>
+	<string name="versao_aplicativo">Versão 1.0</string>
+	<string name="tela_inicial">Menu Inicial</string>
+	<string name="tela_escolhe_modo">Escolher Modo</string>
+	<string name="tela_aux">Informações</string>
+</resources>

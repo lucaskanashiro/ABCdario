@@ -1,0 +1,36 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+	
+    <ImageView 
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:scaleType="fitXY"
+        android:src="@drawable/tela_inicial"/>
+    
+    <ImageView 
+        android:id="@+imgV/Iniciar"
+	    android:layout_height="wrap_content"
+	    android:layout_width="wrap_content"
+	    android:src="@drawable/bt_iniciar"
+	    android:layout_gravity="center"
+	    android:clickable="true" />        
+	
+    <ImageView
+        android:id="@+imgV/Aux"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:src="@drawable/bt_sobre"
+        android:layout_gravity="bottom|left" 
+        android:clickable="true"/>            
+	    
+    <ImageView 
+        android:id="@+imgV/Sair"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:src="@drawable/bt_sair"
+        android:layout_gravity="bottom|right"
+        android:clickable="true" />        
+
+</FrameLayout>
