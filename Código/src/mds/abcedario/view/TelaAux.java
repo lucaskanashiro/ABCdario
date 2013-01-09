@@ -4,7 +4,7 @@ import android.os.Bundle;
 import android.support.v4.widget.SimpleCursorAdapter;
 import fga.mds.abcedario.R;
 
-public class TelaAux extends Activity {
+public class TelaInformativa extends Activity {
 	
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
